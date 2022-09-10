@@ -3,7 +3,8 @@
 
 #include "Arduino.h"
 
-class Encoder
+//a class to handle the wheel engine encoder
+class Encoder 
 {
 private:
     bool _direction; //rotaion direction
