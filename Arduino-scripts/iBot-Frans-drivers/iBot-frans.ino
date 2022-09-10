@@ -9,18 +9,19 @@ Encoder encoderB(6,7);
 void setup()
 {
     Serial.begin(57600);//Initialize the serial port
-    
 }
 
 void loop()
 {
-    Serial.print("Pulse:");
-    Serial.println(duration);
-    duration = 0;
+    Serial.print("PulseA:");
+    Serial.print(encounterA->duration());
+    Serial.print(", PulseB:");
+    Serial.println(encounterA->duration());
     delay(100);
 
 }
 
+/*
 int taskListLength = 254;
 Task tasks[taskListLength];
 
@@ -31,3 +32,4 @@ void cycle()
         tasks[i]->task(time.time);
     }
 }
+*/

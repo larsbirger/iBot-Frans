@@ -2,6 +2,7 @@
 #include "Arduino.h"
 
 
+//constri(u)ctor
 Encoder::Encoder(int pinA, int pinB)
 {
     
@@ -12,6 +13,7 @@ Encoder::Encoder(int pinA, int pinB)
   attachInterrupt(0, this->wheelSpeed, CHANGE);
 }
 
+//acts on wheel movement
 Encoder::WheelSpeed()
 {
     int Lstate = digitalRead(this->encoder0pinA);
@@ -31,4 +33,16 @@ Encoder::WheelSpeed()
 
   if(!this->_direction)  this->_duration++;
   else  this->_duration--;
+}
+
+//resets the duration
+Encoder::resetDuration()
+{
+    this->_duration;
+}
+
+//return the duration to public
+Encoder::duration()
+{
+    return this->_duration;
 }
