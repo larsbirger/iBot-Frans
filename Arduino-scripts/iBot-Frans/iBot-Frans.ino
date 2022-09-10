@@ -1,7 +1,7 @@
 #include "PID.h"
-#include "Task.h"
+/* #include "Task.h" */
 #include "Encoder.h"
-#include "unspecifiedDatatype.h"
+ /* #include "UnspecifiedDatatype.h"*/
 
 Encoder encoderA(4,5);
 Encoder encoderB(6,7);
@@ -14,9 +14,11 @@ void setup()
 void loop()
 {
     Serial.print("PulseA:");
-    Serial.print(encounterA->duration());
+    String msg = (String) encoderA.duration();
+    Serial.print(msg);
     Serial.print(", PulseB:");
-    Serial.println(encounterA->duration());
+    msg = (String) encoderB.duration();
+    Serial.println(msg);
     delay(100);
 
 }

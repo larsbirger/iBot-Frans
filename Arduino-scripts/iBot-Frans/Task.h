@@ -1,7 +1,6 @@
 #ifndef Task_h
 #define Task_h
-#include "time.h"
-#include "unspecifiedDatatype.h"
+/*#include "UnspecifiedDatatype.h"*/
 
 //a generalisation of tasks to be run in a circle buffer
 class Task
@@ -12,8 +11,8 @@ private:
 
 public:
     Task();
-    unspecifiedDatatype task(unsigned long time = 0);
-    virtual unspecifiedDatatype action();
+    /*UnspecifiedDatatype task(unsigned long time = 0);
+    UnspecifiedDatatype action();*/
 };
 
 #endif

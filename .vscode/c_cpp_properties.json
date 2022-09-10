@@ -4,8 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\Users\\larsb\\OneDrive\\Dokumenter\\Arduino",
-                "C:\\Program Files\\Arduino"
+                "D:/Arduino/ArduinoIDE/arduino-1.8.19-windows/arduino-1.8.19/**",
+                "C:/Users/larsb/AppData/Local/Programs/arduino-ide/**"
             ],
             "defines": [
                 "_DEBUG",
