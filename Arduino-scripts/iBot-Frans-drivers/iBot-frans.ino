@@ -3,7 +3,8 @@
 #include "Encoder.h"
 #include "unspecifiedDatatype.h"
 
-Encoder encoder(2,3);
+Encoder encoderA(4,5);
+Encoder encoderB(6,7);
 
 void setup()
 {
