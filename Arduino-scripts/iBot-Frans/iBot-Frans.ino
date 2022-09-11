@@ -14,10 +14,10 @@ void setup()
 void loop()
 {
     Serial.print("PulseA:");
-    String msg = (String) encoderA.duration();
+    String msg = (String) encoderA.getDuration();
     Serial.print(msg);
     Serial.print(", PulseB:");
-    msg = (String) encoderB.duration();
+    msg = (String) encoderB.getDuration();
     Serial.println(msg);
     delay(100);
 

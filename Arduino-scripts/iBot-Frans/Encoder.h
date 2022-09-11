@@ -7,15 +7,15 @@
 class Encoder 
 {
 private:
-    //rotaion direction
+    //rotation direction
     bool _direction; 
-    // A pin
+    //the A pin
     byte _encoder0pinA; 
-    // B pin
+    //the B pin
     byte _encoder0pinB; 
-    //
+    //last state of the A pin
     byte _encoder0PinALast; 
-    // duration of the pulses
+    //duration of the pulses
     int _duration; 
 
     //static anchror pointer pointing to another "this"
@@ -24,13 +24,14 @@ private:
 public:
     //constri(u)ctor
     Encoder( int pinA, int pinB);
-    //acts on wheel movement
+    //function for how the encoder acts on wheel displacement
     void WheelSpeed();
+    //anchored WheelSpeed() to place in interrupt
     static void anchoredWheelSpeed();
     //resets the duration
     resetDuration();
-    //return the duration to public
-    int duration();
+    //get the duration
+    int getDuration();
 };
 
 #endif
