@@ -2,6 +2,8 @@
 /* #include "Task.h" */
 #include "Encoder.h"
  /* #include "UnspecifiedDatatype.h"*/
+#include "protothreads.h"
+
 
 Encoder encoderA(4,5);
 Encoder encoderB(6,7);

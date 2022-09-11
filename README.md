@@ -2,6 +2,8 @@
 - [makign a list of objects](https://www.geeksforgeeks.org/array-of-objects-in-c-with-examples/)
 - [Encapsulation](https://www.w3schools.com/cpp/cpp_encapsulation.asp)
 - [using an interrupt from a method inside a class](https://forum.arduino.cc/t/using-an-interrupt-from-a-method-inside-a-class/486521)
+- [protothreading library](http://dunkels.com/adam/pt/), but this doesn't work on aruino
+- [protothreading library](https://gitlab.com/airbornemint/arduino-protothreads)
 
 
 
@@ -15,5 +17,6 @@
 
 
 
-# relevant to algorithms and such:
+# relevant and such:
 - [Numerical integration](https://en.wikipedia.org/wiki/Numerical_integration)
+- ["Real" Multithreading vs Protothreading](https://create.arduino.cc/projecthub/reanimationxp/how-to-multithread-an-arduino-protothreading-tutorial-dd2c37)
