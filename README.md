@@ -1,5 +1,7 @@
 # C++ tutorials:
 - [makign a list of objects](https://www.geeksforgeeks.org/array-of-objects-in-c-with-examples/)
+- [Encapsulation](https://www.w3schools.com/cpp/cpp_encapsulation.asp)
+- [using an interrupt from a method inside a class](https://forum.arduino.cc/t/using-an-interrupt-from-a-method-inside-a-class/486521)
 
 
 
