@@ -22,18 +22,4 @@ void loop()
     msg = (String) encoderB.getDuration();
     Serial.println(msg);
     delay(100);
-
 }
-
-/*
-int taskListLength = 254;
-Task tasks[taskListLength];
-
-void cycle()
-{
-    for (int i = taskListLength; i >= 0; i--)
-    {
-        tasks[i]->task(time.time);
-    }
-}
-*/
