@@ -8,10 +8,12 @@
 Encoder encoderA(4,5);
 Encoder encoderB(6,7);
 
+pt ptEncoder;
+
 void setup()
 {
     Serial.begin(57600);//Initialize the serial port
-    PT_INIT(&ptEncoder)
+    PT_INIT(&ptEncoder);
 }
 
 void loop()
@@ -19,7 +21,6 @@ void loop()
     PT_SCHEDULE(encoderThread(&ptEncoder));
 }
 
-pt ptEncoder;
 int encoderThread(struct pt* pt)
 {
     PT_BEGIN(pt);
